@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="logo.png"/>
+    <img src="https://raw.githubusercontent.com/neuml/annotateai/master/logo.png"/>
 </p>
 
 <p align="center">
