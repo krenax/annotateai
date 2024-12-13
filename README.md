@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/neuml/annotate/releases">
+    <a href="https://github.com/neuml/annotateai/releases">
         <img src="https://img.shields.io/github/release/neuml/annotateai.svg?style=flat&color=success" alt="Version"/>
     </a>
-    <a href="https://github.com/neuml/annotate/releases">
+    <a href="https://github.com/neuml/annotateai/releases">
         <img src="https://img.shields.io/github/release-date/neuml/annotateai.svg?style=flat&color=blue" alt="GitHub Release Date"/>
     </a>
     <a href="https://github.com/neuml/annotateai/issues">
