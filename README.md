@@ -133,7 +133,9 @@ annotate = Annotate("claude-3-5-sonnet-20240620")
 annotate = Annotate("ollama/llama3.1")
 
 # llama.cpp GGUF from Hugging Face Hub
-annotate = Annotate("bartowski/Llama-3.1_OpenScholar-8B-GGUF/Llama-3.1_OpenScholar-8B-Q4_K_M.gguf")
+annotate = Annotate(
+  "bartowski/Llama-3.1_OpenScholar-8B-GGUF/Llama-3.1_OpenScholar-8B-Q4_K_M.gguf"
+)
 ```
 
 ### Additional parameters
