@@ -68,7 +68,7 @@ This project also works well with papers from [PubMed](https://pubmed.ncbi.nlm.n
 The examples below use an AutoAWQ model, make sure to install that dependency first.
 
 ```
-pip install annotateai autoawq[kernels]
+pip install annotateai autoawq-kernels
 ```
 
 The primary input parameter is the path to the LLM. This project is backed by [txtai](https://github.com/neuml/txtai) and it supports any [txtai-supported LLM](https://neuml.github.io/txtai/pipeline/text/llm/).
