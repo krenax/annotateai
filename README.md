@@ -116,6 +116,26 @@ annotate("https://arxiv.org/pdf/2406.14657")
 
 _Source: https://arxiv.org/pdf/2406.14657_
 
+### LLM APIs and llama.cpp
+
+As mentioned earlier, this project supports any [txtai-supported LLM](https://neuml.github.io/txtai/pipeline/text/llm/). Some examples below.
+
+```
+pip install txtai[pipeline-llm]
+```
+
+```python
+# LLM API services
+annotate = Annotate("gpt-4o")
+annotate = Annotate("claude-3-5-sonnet-20240620")
+
+# Ollama endpoint
+annotate = Annotate("ollama/llama3.1")
+
+# llama.cpp GGUF from Hugging Face Hub
+annotate = Annotate("bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf")
+```
+
 ### Additional parameters
 
 The default mode for an `annotate` instance is to automatically generate the key concepts to search for. But these concepts can be provided via the `keywords` parameter.
